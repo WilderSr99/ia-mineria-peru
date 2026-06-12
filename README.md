@@ -6,6 +6,14 @@ El caso piloto se desarrolla en **Madre de Dios**, provincia de **Tambopata**, d
 
 ---
 
+---
+
+## 📌 Mensaje Central
+
+> 💬 **"La transformación digital no consiste solo en usar tecnología. Consiste en convertir datos en decisiones, evidencia en acción y territorio en prioridad pública."**
+
+---
+
 ## 🚀 Objetivo
 
 Detectar, cuantificar y monitorear la minería ilegal entre **2019 y 2025**, generando información territorial útil para fiscalización ambiental, alertas tempranas y toma de decisiones públicas.
@@ -167,9 +175,3 @@ Este proyecto busca contribuir a:
 * **Wilder T. Sebastian R.**
 
 > 💡 *Proyecto desarrollado como propuesta para **GEOTÓN Perú 2026**, orientado al uso de datos georreferenciados, inteligencia artificial e innovación pública.*
-
----
-
-## 📌 Mensaje Central
-
-> 💬 **"La transformación digital no consiste solo en usar tecnología. Consiste en convertir datos en decisiones, evidencia en acción y territorio en prioridad pública."**
