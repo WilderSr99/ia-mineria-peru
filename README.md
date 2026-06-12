@@ -162,6 +162,6 @@ Este proyecto busca contribuir a:
 
 ## 👤 Autor
 
-* **Wilder T. Sebastian R.**
+* **Wilder Sebastian R.**
 
 > 💡 *Proyecto desarrollado como propuesta para **GEOTÓN Perú 2026**, orientado al uso de datos georreferenciados, inteligencia artificial e innovación pública.*
