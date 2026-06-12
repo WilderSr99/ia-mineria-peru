@@ -49,33 +49,16 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 - Periodo: 2019–2025
 - Meses priorizados: agosto a octubre
 
-### Bandas
+### 🛠️ Insumos y Capas del Sistema
 
-- B2
-- B3
-- B4
-- B8
-- B11
-- B12
-
-### Índices espectrales
-
-- NDVI
-- NDWI
-- MNDWI
-- NBR
-- NDBI
-- BSI
-
-### Capas territoriales
-
-- Límites administrativos
-- Áreas naturales protegidas
-- Zonas de amortiguamiento
-- Comunidades nativas tituladas
-- Ríos navegables
-- Datos interoperables con GEO Perú / SNIG
-
+| 🛰️ Bandas (Sentinel-2) | 📈 Índices Espectrales | 🗺️ Capas Territoriales |
+| :--- | :--- | :--- |
+| **B2** (Azul) | **NDVI** (Vegetación) | Límites administrativos |
+| **B3** (Verde) | **NDWI** (Agua) | Áreas naturales protegidas (ANP) |
+| **B4** (Rojo) | **MNDWI** (Agua modificado) | Zonas de amortiguamiento |
+| **B8** (NIR) | **NBR** (Quemas/Severidad) | Comunidades nativas tituladas |
+| **B11** (SWIR 1) | **NDBI** (Áreas Construidas) | Ríos navegables |
+| **B12** (SWIR 2) | **BSI** (Suelo Desnudo) | Interoperabilidad GEO Perú / SNIG |
 ---
 
 ## 🧠 Modelos entrenados
