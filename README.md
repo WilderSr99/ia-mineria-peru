@@ -1,4 +1,4 @@
-# 🌎 IA para la detección y monitoreo de minería ilegal en Madre de Dios
+# 🌎Modelos de inteligencia artificial para la detección y monitoreo multitemporal de minería ilegal: caso aplicado en Madre de Dios
 
 Proyecto de **inteligencia artificial, teledetección y análisis geoespacial** para detectar y monitorear la expansión de la minería ilegal usando imágenes Sentinel-2, modelos Deep Learning y datos territoriales.
 
