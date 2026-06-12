@@ -6,8 +6,6 @@ El caso piloto se desarrolla en **Madre de Dios**, provincia de **Tambopata**, d
 
 ---
 
----
-
 ## 📌 Mensaje Central
 
 > 💬 **"La transformación digital no consiste solo en usar tecnología. Consiste en convertir datos en decisiones, evidencia en acción y territorio en prioridad pública."**
@@ -18,6 +16,29 @@ El caso piloto se desarrolla en **Madre de Dios**, provincia de **Tambopata**, d
 
 Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degradación del medio donde hay presencia de minería ilegal entre **2019 y 2025**, generando información territorial útil para fiscalización ambiental, alertas tempranas y toma de decisiones públicas.
 
+---
+
+## ⚙️ Flujo metodológico
+
+```text
+Sentinel-2
+↓
+Cálculo de bandas e índices espectrales
+↓
+Etiquetado minería / no minería
+↓
+Entrenamiento U-Net y SegFormer
+↓
+Inferencia anual 2019–2025
+↓
+Vectorización de predicciones
+↓
+Análisis temporal
+↓
+Cruce con capas territoriales
+↓
+Mapas, indicadores y alertas tempranas
+```
 ---
 
 ## 📍 Área de estudio
@@ -124,27 +145,6 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 
 ---
 
-## ⚙️ Flujo metodológico
-
-```text
-Sentinel-2
-↓
-Cálculo de bandas e índices espectrales
-↓
-Etiquetado minería / no minería
-↓
-Entrenamiento U-Net y SegFormer
-↓
-Inferencia anual 2019–2025
-↓
-Vectorización de predicciones
-↓
-Análisis temporal
-↓
-Cruce con capas territoriales
-↓
-Mapas, indicadores y alertas tempranas
-```
 ## 🌐 Escalabilidad
 
 Aunque el piloto se desarrolló en Madre de Dios, la metodología puede escalarse a otras regiones del Perú afectadas por minería ilegal, deforestación o degradación ambiental. 
