@@ -21,7 +21,7 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 ## ⚙️ Flujo metodológico
 
 <p align="center">
-  <img src="assets/methodology_svg.svg"
+  <img src="src/assets/methodology_svg.svg"
        alt="Flujo metodológico del proyecto"
        width="800">
 </p>
@@ -79,14 +79,14 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 
 **U-Net: Valiación Visual**
 <p align="center">
-  <img src="assets/prediction_example_00.png"
+  <img src="src/assets/prediction_example_00.png"
        alt="U-Net"
        width="800">
 </p>
 
 **SegFormer-B0: Valiación Visual**
 <p align="center">
-  <img src="assets/segformer_b0_prediction_example_01.png"
+  <img src="src/assets/segformer_b0_prediction_example_01.png"
        alt="SegFormer-B0"
        width="800">
 </p>
