@@ -26,25 +26,6 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
        width="800">
 </p>
 
-```text
-Sentinel-2
-↓
-Cálculo de bandas e índices espectrales
-↓
-Etiquetado minería / no minería
-↓
-Entrenamiento U-Net y SegFormer
-↓
-Inferencia anual 2019–2025
-↓
-Vectorización de predicciones
-↓
-Análisis temporal
-↓
-Cruce con capas territoriales
-↓
-Mapas, indicadores y alertas tempranas
-```
 ---
 
 ## 📍 Área de estudio
