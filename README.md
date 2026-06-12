@@ -20,6 +20,12 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 
 ## ⚙️ Flujo metodológico
 
+<p align="center">
+  <img src="assets/methodology_min_per.svg"
+       alt="Flujo metodológico del proyecto"
+       width="800">
+</p>
+
 ```text
 Sentinel-2
 ↓
