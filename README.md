@@ -16,7 +16,7 @@ El caso piloto se desarrolla en **Madre de Dios**, provincia de **Tambopata**, d
 
 ## 🚀 Objetivo
 
-Detectar, cuantificar y monitorear la minería ilegal entre **2019 y 2025**, generando información territorial útil para fiscalización ambiental, alertas tempranas y toma de decisiones públicas.
+Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degradación del medio donde hay presencia de minería ilegal entre **2019 y 2025**, generando información territorial útil para fiscalización ambiental, alertas tempranas y toma de decisiones públicas.
 
 ---
 
