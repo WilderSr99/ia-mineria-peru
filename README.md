@@ -94,8 +94,22 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 | U-Net baseline | 0.8574 | 0.9090 | 0.9240 | 0.9189 | 0.9742 |
 | SegFormer-B0 | 0.8603 | 0.9115 | 0.9119 | 0.9266 | 0.9756 |
 
-**SegFormer-B0** fue seleccionado como modelo principal por su mejor desempeño global.
+**U-Net: Valiación Visual**
+<p align="center">
+  <img src="assetsprediction_example_00.png"
+       alt="U-Net"
+       width="800">
+</p>
 
+**SegFormer-B0: Valiación Visual**
+<p align="center">
+  <img src="assets/segformer_b0_prediction_example_01.png"
+       alt="SegFormer-B0"
+       width="800">
+</p>
+
+
+**SegFormer-B0** fue seleccionado como modelo principal por su mejor desempeño global.
 ---
 
 ## 📈 Resultados temporales
