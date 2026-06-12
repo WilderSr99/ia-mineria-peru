@@ -96,7 +96,7 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 
 **U-Net: Valiación Visual**
 <p align="center">
-  <img src="assetsprediction_example_00.png"
+  <img src="assets/prediction_example_00.png"
        alt="U-Net"
        width="800">
 </p>
