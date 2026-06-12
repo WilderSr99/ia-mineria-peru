@@ -136,3 +136,40 @@ Análisis temporal
 Cruce con capas territoriales
 ↓
 Mapas, indicadores y alertas tempranas
+```
+## 🌐 Escalabilidad
+
+Aunque el piloto se desarrolló en Madre de Dios, la metodología puede escalarse a otras regiones del Perú afectadas por minería ilegal, deforestación o degradación ambiental. 
+
+Para escalar el sistema se requiere:
+* **Incorporar nuevas imágenes** provenientes de satélites como Sentinel-2.
+* **Generar muestras locales** de entrenamiento adaptadas a la geografía de cada zona.
+* **Ajustar o reentrenar el modelo** para asegurar una alta precisión.
+* **Integrar capas territoriales** regionales para un mejor contexto geográfico.
+* **Automatizar reportes** y la emisión de alertas tempranas.
+
+---
+
+## 🎯 Impacto Esperado
+
+Este proyecto busca contribuir a:
+* 🔍 **Mejorar la fiscalización ambiental** a través de tecnología precisa.
+* 🚨 **Detectar nuevos frentes** de minería ilegal de manera temprana.
+* 🌿 **Reducir riesgos socioambientales** asociados a la degradación del territorio.
+* 📍 **Priorizar zonas críticas** para la intervención y control.
+* 📊 **Fortalecer la toma de decisiones** en la gestión pública basadas en evidencia.
+* 🏛️ **Impulsar la transformación digital** de las instituciones del Estado.
+
+---
+
+## 👤 Autor
+
+* **Wilder T. Sebastian R.**
+
+> 💡 *Proyecto desarrollado como propuesta para **GEOTÓN Perú 2026**, orientado al uso de datos georreferenciados, inteligencia artificial e innovación pública.*
+
+---
+
+## 📌 Mensaje Central
+
+> 💬 **"La transformación digital no consiste solo en usar tecnología. Consiste en convertir datos en decisiones, evidencia en acción y territorio en prioridad pública."**
