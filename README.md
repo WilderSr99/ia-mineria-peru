@@ -38,6 +38,12 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 | Área aproximada | 944.64 km² |
 | CRS | UTM Zone 19S / EPSG:32719 |
 | Periodo | 2019–2025 |
+### Imagen Sentinel-2
+<p align="center">
+  <img src="src/assets/context_.png"
+       alt="Contexto del Area de estudio"
+       width="800">
+</p>
 
 ---
 
