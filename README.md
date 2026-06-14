@@ -125,16 +125,17 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 
 <p align="center">
   <img
-    src="assets/mineria_ilegal_multitemporal_2019_2025.gif"
-    alt="Evolución multitemporal de la minería detectada entre 2019 y 2025"
-    width="900"
+    src="src/assets/mineria_ilegal_multitemporal_2019_2025.gif"
+    alt="Evolución de áreas afectadas por minería ilegal entre 2019 y 2025"
+    width="950"
   >
 </p>
-
 <p align="center">
-  <em>Predicción anual generada con SegFormer-B0 a partir de imágenes Sentinel-2.</em>
+  <em>
+    Evolución anual de las áreas detectadas mediante imágenes Sentinel-2
+    y el modelo de segmentación SegFormer.
+  </em>
 </p>
-
 ---
 
 ## 🗺️ Hallazgos territoriales
