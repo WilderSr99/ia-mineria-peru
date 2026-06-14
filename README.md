@@ -131,12 +131,6 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
     width="950"
   >
 </p>
-<p align="center">
-  <em>
-    Evolución anual de las áreas detectadas mediante imágenes Sentinel-2
-    y el modelo de segmentación SegFormer.
-  </em>
-</p>
 
 ---
 
