@@ -99,6 +99,7 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 
 
 **SegFormer-B0** fue seleccionado como modelo principal por su mejor desempeño global.
+
 ---
 
 ## 📈 Resultados temporales
@@ -136,6 +137,7 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
     y el modelo de segmentación SegFormer.
   </em>
 </p>
+
 ---
 
 ## 🗺️ Hallazgos territoriales
