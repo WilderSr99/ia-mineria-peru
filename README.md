@@ -21,7 +21,7 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 ## ⚙️ Flujo metodológico
 
 <p align="center">
-  <img src="src/assets/methodology_svg.svg"
+  <img src="src/assets/methodology_github_ia-mineria.svg"
        alt="Flujo metodológico del proyecto"
        width="800">
 </p>
