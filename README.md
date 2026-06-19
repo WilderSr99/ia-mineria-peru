@@ -23,7 +23,6 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 ---
 
 ## 📍 Área de estudio
-
 | Identificador | Región / Departamento | Provincia | Distrito | Área Aproximada (km²) |
 | :--- | :--- | :--- | :--- | :--- |
 | **Área 1** | Madre de Dios | Tambopata | Inambari | 1216.64 |
