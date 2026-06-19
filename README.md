@@ -39,8 +39,15 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 | CRS | UTM Zone 19S / EPSG:32719 |
 | Periodo | 2019–2025 |
 ### Imagen Sentinel-2
+
 <p align="center">
-  <img src="src/assets/context_.png"
+  <img src="src/assets/Area_n1_selva.png"
+       alt="Contexto del Area de estudio"
+       width="800">
+</p>
+
+<p align="center">
+  <img src="src/assets/Area_n2_selva.png"
        alt="Contexto del Area de estudio"
        width="800">
 </p>
