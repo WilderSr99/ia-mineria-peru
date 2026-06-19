@@ -2,7 +2,7 @@
 
 Proyecto de **inteligencia artificial, teledetección y análisis geoespacial** para detectar y monitorear la expansión de la minería ilegal usando imágenes Sentinel-2, modelos Deep Learning y datos territoriales.
 
-El caso piloto se desarrolla en **Madre de Dios** en la provincia de **Tambopata**, distrito de **Inambari**, con un área aproximada de **1216.64 km²** y la provincia del **Manu**, distrito de **Madre de Dios**, con un área aproximada de **2331.77 km²**. La metodología tiene potencial de **escalabilidad a nivel nacional**.
+El caso piloto se desarrolla en **Madre de Dios** en la provincia de **Manu**, distrito de **Madre de Dios**, con un área aproximada de **2331.77 km²** y la provincia del **Tambopata**, distrito de **Inambari**, con un área aproximada de **1216.64 km²**. La metodología tiene potencial de **escalabilidad a nivel nacional**.
 
 ---
 
@@ -25,8 +25,8 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 ## 📍 Área de estudio
 | Identificador | Región / Departamento | Provincia | Distrito | Área Aproximada (km²) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Área 1** | Madre de Dios | Tambopata | Inambari | 1216.64 |
-| **Área 2** | Madre de Dios | Manu | Madre de Dios | 2331.77 |
+| **Área 1** | Madre de Dios | Manu | Madre de Dios | 2331.77 |
+| **Área 2** | Madre de Dios | Tambopata | Inambari | 1216.64 |
 
 *Nota: La metodología empleada en este caso piloto cuenta con potencial de escalabilidad a nivel nacional.*
 
