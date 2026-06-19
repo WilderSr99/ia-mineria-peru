@@ -126,8 +126,16 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 
 <p align="center">
   <img
-    src="src/assets/mineria_ilegal_multitemporal_2019_2025.gif"
-    alt="Evolución de áreas afectadas por minería ilegal entre 2019 y 2025"
+    src="src/assets/mineria_ilegal_multitemporal_2017_2025_A1.gif"
+    alt="Evolución de áreas afectadas entre 2017 y 2025"
+    width="950"
+  >
+</p>
+
+<p align="center">
+  <img
+    src="src/assets/mineria_ilegal_multitemporal_2017_2025_A2.gif"
+    alt="Evolución de áreas afectadas entre 2017 y 2025"
     width="950"
   >
 </p>
