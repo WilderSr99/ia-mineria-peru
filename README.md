@@ -23,15 +23,13 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 ---
 
 ## 📍 Área de estudio
-|Área 1|
-| Elemento | Descripción |
-|---|---|
-| Departamento | Madre de Dios |
-| Provincia | Tambopata |
-| Distrito principal | Inambari |
-| Área aproximada | 944.64 km² |
-| CRS | UTM Zone 19S / EPSG:32719 |
-| Periodo | 2019–2025 |
+
+| Identificador | Región / Departamento | Provincia | Distrito | Área Aproximada (km²) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Área 1** | Madre de Dios | Tambopata | Inambari | 1216.64 |
+| **Área 2** | Madre de Dios | Manu | Madre de Dios | 2331.77 |
+
+*Nota: La metodología empleada en este caso piloto cuenta con potencial de escalabilidad a nivel nacional.*
 
 ### Imagen Sentinel-2
 
