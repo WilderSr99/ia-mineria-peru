@@ -51,7 +51,7 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 ### Imágenes satelitales
 
 - Sentinel-2
-- Periodo: 2019–2025
+- Periodo: 2017–2025
 - Meses priorizados: agosto a octubre
 
 ### 🛠️ Insumos y Capas del Sistema
