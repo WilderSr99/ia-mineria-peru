@@ -106,25 +106,11 @@ Explorar modelos de Deep Learning para detectar, cuantificar y monitorear la deg
 
 ### Evolución anual de la minería detectada (ha)
 
-
-### 📈 Evolución anual de la minería detectada (ha)
-
-[![Evolución de la minería](src/assets/grafica_preview.png)](https://htmlpreview.github.io/?https://github.com/WilderSr99/ia-mineria-peru/src/assets/grafica_evolucion.html)
-
-
-
-*Haz clic en la imagen para ver la gráfica interactiva.*
-
-| Año | Área 1: Manu (ha) | Área 2: Tambopata (ha) |
-|---|---:|---:|
-| **2017** | 21757.65 | 13218.71 |
-| **2019** | 24126.41 | 16660.04 |
-| **2020** | 25610.80 | 17530.30 |
-| **2021** | 29118.31 | 18959.10 |
-| **2022** | 29402.15 | 20218.14 |
-| **2023** | 30370.67 | 22080.18 |
-| **2024** | 31450.12 | 24803.03 |
-| **2025** | 32739.19 | 28138.03 |
+<p align="center">
+  <img src="src/assets/grafica_preview.png"
+       alt="evolución 2017-2025"
+       width="800">
+</p>
 
 ### Indicadores principales
 
