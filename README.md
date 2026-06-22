@@ -1,4 +1,4 @@
-# 🌎Modelos de inteligencia artificial para la detección y monitoreo multitemporal de minería ilegal: caso aplicado en Madre de Dios
+# 🌎 Modelos de inteligencia artificial para la detección y monitoreo multitemporal de minería ilegal: caso aplicado en Madre de Dios
 
 Proyecto de **inteligencia artificial, teledetección y análisis geoespacial** para detectar y monitorear la expansión de la minería ilegal usando imágenes Sentinel-2, modelos Deep Learning y datos territoriales.
 
@@ -8,7 +8,7 @@ El caso piloto se desarrolla en **Madre de Dios** en la provincia de **Manu**, d
 
 ## 🚀 Objetivo
 
-Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degradación del medio donde hay presencia de minería ilegal entre **2017 y 2025**, generando información territorial útil para fiscalización ambiental, alertas tempranas y toma de decisiones públicas.
+Explorar modelos de Deep Learning para detectar, cuantificar y monitorear la degradación del medio donde hay presencia de minería ilegal entre **2017 y 2025**, generando información territorial útil para fiscalización ambiental, alertas tempranas y toma de decisiones públicas.
 
 ---
 
@@ -64,6 +64,7 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 | **B8** (NIR) | **NBR** (Quemas/Severidad) | Comunidades nativas tituladas |
 | **B11** (SWIR 1) | **NDBI** (Áreas Construidas) | Ríos navegables |
 | **B12** (SWIR 2) | **BSI** (Suelo Desnudo) | Interoperabilidad GEO Perú / SNIG |
+
 ---
 
 ## 🧠 Modelos entrenados
@@ -82,14 +83,14 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 | U-Net baseline | 0.8574 | 0.9090 | 0.9240 | 0.9189 | 0.9742 |
 | SegFormer-B0 | 0.8603 | 0.9115 | 0.9119 | 0.9266 | 0.9756 |
 
-**U-Net: Valiación Visual**
+**U-Net: Validación Visual**
 <p align="center">
   <img src="src/assets/prediction_example_00.png"
        alt="U-Net"
        width="800">
 </p>
 
-**SegFormer-B0: Valiación Visual**
+**SegFormer-B0: Validación Visual**
 <p align="center">
   <img src="src/assets/segformer_b0_prediction_example_01.png"
        alt="SegFormer-B0"
@@ -103,23 +104,34 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 
 ## 📈 Resultados temporales
 
-| Año | Área minera detectada |
-|---|---:|
-| 2019 | 14,842.70 ha |
-| 2020 | 15,422.58 ha |
-| 2021 | 16,480.93 ha |
-| 2022 | 17,321.73 ha |
-| 2023 | 18,624.12 ha |
-| 2024 | 20,346.87 ha |
-| 2025 | 22,678.36 ha |
+### Evolución anual de la minería detectada (ha)
+
+| Año | Área 1: Manu (ha) | Área 2: Tambopata (ha) |
+|---|---:|---:|
+| **2017** | 21757.65 | 13218.71 |
+| **2019** | 24126.41 | 16660.04 |
+| **2020** | 25610.80 | 17530.30 |
+| **2021** | 29118.31 | 18959.10 |
+| **2022** | 29402.15 | 20218.14 |
+| **2023** | 30370.67 | 22080.18 |
+| **2024** | 31450.12 | 24803.03 |
+| **2025** | 32739.19 | 28138.03 |
 
 ### Indicadores principales
 
-- Incremento total: **7,835.66 ha**
-- Variación total: **52.79%**
-- Expansión nueva 2019–2025: **8,721.05 ha**
-- Minería persistente: **13,957.31 ha**
-- Huella acumulada: **24,741.49 ha**
+#### **Área 1: Manu (Distrito Madre de Dios)**
+- Incremento neto total (2017–2025): **10,981.54 ha**
+- Variación total del periodo: **50.47%**
+- Expansión nueva (frentes nuevos): **16,721.48 ha**
+- Minería persistente (núcleos estables): **16,017.71 ha**
+- Huella acumulada multitemporal: **45,548.78 ha**
+
+#### **Área 2: Tambopata (Distrito Inambari)**
+- Incremento neto total (2017–2025): **14,919.32 ha**
+- Variación total del periodo: **112.87%**
+- Expansión nueva (frentes nuevos): **16,241.14 ha**
+- Minería persistente (núcleos estables): **11,896.89 ha**
+- Huella acumulada multitemporal: **32,299.94 ha**
 
 ### 🎞️ Evolución temporal de la minería detectada
 
@@ -143,13 +155,23 @@ Explorar modelos de Deep Learnig para detectar, cuantificar y monitorear la degr
 
 ## 🗺️ Hallazgos territoriales
 
-| Capa territorial | Resultado principal |
-|---|---:|
-| Zonas de amortiguamiento | 4,233.19 ha de expansión nueva |
-| Zonas de amortiguamiento | 15,683.85 ha de minería acumulada |
-| Comunidades nativas | 178.37 ha de expansión nueva en Kotsimba |
-| Ríos navegables | Presión en Río Manuani e Inambari |
-| Áreas naturales protegidas | 9.32 ha de expansión nueva |
+### 📍 Análisis territorial - Área 1 (Manu)
+
+| Capa territorial | Expansión Nueva (ha) | Minería Acumulada (ha) | Impactos Principales / Unidades Críticas |
+|---|---:|---:|---|
+| **Zonas de amortiguamiento** | 5367.60 | 13838.28 | Fuerte afectación y presión sobre la Zona de Amortiguamiento de **Amarakaeri** (5,367.60 ha). |
+| **Comunidades nativas** | 5228.18 | 12045.21 | Invasión crítica de tierras indígenas, destacando **San José de Karene** (3,192.13 ha), **Barranco Chico** (1,350.42 ha) y **Puerto Luz** (466.59 ha). |
+| **Ríos navegables** | 442.10 | 1564.11 | Alta actividad en los cursos hídricos, liderada por el **Río Puquiri** (197.99 ha), **Río Colorado** (94.72 ha) y **Río Caychihua** (68.39 ha). |
+| **Áreas naturales protegidas** | 0.00 | 1.96 | No se registraron nuevos frentes dentro de ANP nucleares, mostrando una desestimación/reducción de 1.95 ha en el periodo. |
+
+### 📍 Análisis territorial - Área 2 (Tambopata)
+
+| Capa territorial | Expansión Nueva (ha) | Minería Acumulada (ha) | Impactos Principales / Unidades Críticas |
+|---|---:|---:|---|
+| **Zonas de amortiguamiento** | 7330.63 | 16756.43 | Presión masiva en la Zona de Amortiguamiento de **Tambopata** con un crecimiento dinámico de 7,330.63 ha. |
+| **Comunidades nativas** | 232.12 | 308.43 | Impacto focalizado directamente sobre el territorio de la comunidad nativa de **Kotsimba** (232.12 ha). |
+| **Ríos navegables** | 164.22 | 432.32 | Degradación en márgenes y llanuras fluviales, principalmente en el **Río Inambari** (87.75 ha) y **Río Manuani** (64.49 ha). |
+| **Áreas naturales protegidas** | 25.66 | 723.11 | **Alerta crítica:** Detección de frentes activos y una expansión de **25.66 ha** directamente al interior del **Área Natural Protegida Tambopata**. |
 
 ---
 
@@ -177,9 +199,3 @@ Este proyecto busca contribuir a:
 * 🏛️ **Impulsar la transformación digital** de las instituciones del Estado.
 
 ---
-
-## 👤 Autor
-
-* **Wilder Sebastian R.**
-
-> 💡 *Proyecto desarrollado como propuesta para **GEOTÓN Perú 2026**, orientado al uso de datos georreferenciados, inteligencia artificial e innovación pública.*
