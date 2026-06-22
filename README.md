@@ -85,14 +85,14 @@ Explorar modelos de Deep Learning para detectar, cuantificar y monitorear la deg
 
 **U-Net: Validación Visual**
 <p align="center">
-  <img src="src/assetsprediction_example_07.png"
+  <img src="src/assets/prediction_example_07_7.png"
        alt="U-Net"
        width="800">
 </p>
 
 **SegFormer-B0: Validación Visual**
 <p align="center">
-  <img src="src/assets/segformer_b0_prediction_example_01.png"
+  <img src="src/assets/segformer_b0_prediction_example_01_1.png"
        alt="SegFormer-B0"
        width="800">
 </p>
