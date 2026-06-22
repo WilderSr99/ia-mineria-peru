@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolución Anual de la Minería Detectada</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f6f8fa; /* Color de fondo tipo GitHub */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .chart-container {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 900px;
+            border: 1px solid #e1e4e8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="chart-container">
+        <canvas id="mineriaChart"></canvas>
+    </div>
+
+    <script>
+        // Obtener el contexto del canvas
+        const ctx = document.getElementById('mineriaChart').getContext('2d');
+
+        // Configurar los datos
+        const data = {
+            labels: ['2017', '2019', '2020', '2021', '2022', '2023', '2024', '2025'],
+            datasets: [
+                {
+                    label: 'Área 1: Manu (ha)',
+                    data: [21757.65, 24126.41, 25610.80, 29118.31, 29402.15, 30370.67, 31450.12, 32739.19],
+                    borderColor: 'rgba(46, 160, 67, 1)', /* Verde GitHub */
+                    backgroundColor: 'rgba(46, 160, 67, 0.2)',
+                    borderWidth: 2,
+                    pointBackgroundColor: 'rgba(46, 160, 67, 1)',
+                    fill: true,
+                    tension: 0.3 // Suavizar las líneas
+                },
+                {
+                    label: 'Área 2: Tambopata (ha)',
+                    data: [13218.71, 16660.04, 17530.30, 18959.10, 20218.14, 22080.18, 24803.03, 28138.03],
+                    borderColor: 'rgba(215, 58, 73, 1)', /* Rojo/Naranja GitHub */
+                    backgroundColor: 'rgba(215, 58, 73, 0.2)',
+                    borderWidth: 2,
+                    pointBackgroundColor: 'rgba(215, 58, 73, 1)',
+                    fill: true,
+                    tension: 0.3
+                }
+            ]
+        };
+
+        // Crear la gráfica
+        const mineriaChart = new Chart(ctx, {
+            type: 'line',
+            data: data,
+            options: {
+                responsive: true,
+                interaction: {
+                    mode: 'index',
+                    intersect: false,
+                },
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Evolución Anual de la Minería Detectada (2017 - 2025)',
+                        font: {
+                            size: 18,
+                            family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto'
+                        },
+                        padding: {
+                            top: 10,
+                            bottom: 20
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                let label = context.dataset.label || '';
+                                if (label) {
+                                    label += ': ';
+                                }
+                                if (context.parsed.y !== null) {
+                                    // Formatear el número con comas para miles
+                                    label += new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(context.parsed.y) + ' ha';
+                                }
+                                return label;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Año'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Hectáreas (ha)'
+                        },
+                        ticks: {
+                            // Formatear los números en el eje Y
+                            callback: function(value, index, values) {
+                                return value.toLocaleString('en-US');
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
