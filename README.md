@@ -2,7 +2,7 @@
 
 Proyecto de **inteligencia artificial, teledetección y análisis geoespacial** para detectar y monitorear la expansión de la minería ilegal usando imágenes Sentinel-2, modelos Deep Learning y datos territoriales.
 
-El caso piloto se desarrolla en **Madre de Dios** en la provincia de **Manu**, distrito de **Madre de Dios**, con un área aproximada de **2331.77 km²** y la provincia del **Tambopata**, distrito de **Inambari**, con un área aproximada de **1216.64 km²**. La metodología tiene potencial de **escalabilidad a nivel nacional**.
+El caso piloto se desarrolla en **Madre de Dios** en la provincia de **Manu**, distrito de **Madre de Dios**, con un área aproximada de **2,331.77 km²** y la provincia del **Tambopata**, distrito de **Inambari**, con un área aproximada de **1,216.64 km²**. La metodología tiene potencial de **escalabilidad a nivel nacional**.
 
 ---
 
@@ -25,8 +25,8 @@ Explorar modelos de Deep Learning para detectar, cuantificar y monitorear la deg
 ## 📍 Área de estudio
 | Identificador | Región / Departamento | Provincia | Distrito | Área Aproximada (km²) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Área 1** | Madre de Dios | Manu | Madre de Dios | 2331.77 |
-| **Área 2** | Madre de Dios | Tambopata | Inambari | 1216.64 |
+| **Área 1** | Madre de Dios | Manu | Madre de Dios | 2,331.77 |
+| **Área 2** | Madre de Dios | Tambopata | Inambari | 1,216.64 |
 
 *Nota: La metodología empleada en este caso piloto cuenta con potencial de escalabilidad a nivel nacional.*
 
@@ -51,7 +51,7 @@ Explorar modelos de Deep Learning para detectar, cuantificar y monitorear la deg
 ### Imágenes satelitales
 
 - Sentinel-2
-- Periodo: 2017–2025
+- Periodo: 2017-2025
 - Meses priorizados: agosto a octubre
 
 ### 🛠️ Insumos y Capas del Sistema
@@ -154,16 +154,16 @@ Explorar modelos de Deep Learning para detectar, cuantificar y monitorear la deg
 
 | Capa territorial | Expansión Nueva (ha) | Minería Acumulada (ha) | Impactos Principales / Unidades Críticas |
 |---|---:|---:|---|
-| **Zonas de amortiguamiento** | 5367.60 | 13838.28 | Fuerte afectación y presión sobre la Zona de Amortiguamiento de **Amarakaeri** (5,367.60 ha). |
-| **Comunidades nativas** | 5228.18 | 12045.21 | Invasión crítica de tierras indígenas, destacando **San José de Karene** (3,192.13 ha), **Barranco Chico** (1,350.42 ha) y **Puerto Luz** (466.59 ha). |
-| **Ríos navegables** | 442.10 | 1564.11 | Alta actividad en los cursos hídricos, liderada por el **Río Puquiri** (197.99 ha), **Río Colorado** (94.72 ha) y **Río Caychihua** (68.39 ha). |
+| **Zonas de amortiguamiento** | 5,367.60 | 13838.28 | Fuerte afectación y presión sobre la Zona de Amortiguamiento de **Amarakaeri** (5,367.60 ha). |
+| **Comunidades nativas** | 5,228.18 | 12,045.21 | Invasión crítica de tierras indígenas, destacando **San José de Karene** (3,192.13 ha), **Barranco Chico** (1,350.42 ha) y **Puerto Luz** (466.59 ha). |
+| **Ríos navegables** | 442.10 | 1,564.11 | Alta actividad en los cursos hídricos, liderada por el **Río Puquiri** (197.99 ha), **Río Colorado** (94.72 ha) y **Río Caychihua** (68.39 ha). |
 | **Áreas naturales protegidas** | 0.00 | 1.96 | No se registraron nuevos frentes dentro de ANP nucleares, mostrando una desestimación/reducción de 1.95 ha en el periodo. |
 
 ### 📍 Análisis territorial - Área 2 (Tambopata)
 
 | Capa territorial | Expansión Nueva (ha) | Minería Acumulada (ha) | Impactos Principales / Unidades Críticas |
 |---|---:|---:|---|
-| **Zonas de amortiguamiento** | 7330.63 | 16756.43 | Presión masiva en la Zona de Amortiguamiento de **Tambopata** con un crecimiento dinámico de 7,330.63 ha. |
+| **Zonas de amortiguamiento** | 7,330.63 | 16,756.43 | Presión masiva en la Zona de Amortiguamiento de **Tambopata** con un crecimiento dinámico de 7,330.63 ha. |
 | **Comunidades nativas** | 232.12 | 308.43 | Impacto focalizado directamente sobre el territorio de la comunidad nativa de **Kotsimba** (232.12 ha). |
 | **Ríos navegables** | 164.22 | 432.32 | Degradación en márgenes y llanuras fluviales, principalmente en el **Río Inambari** (87.75 ha) y **Río Manuani** (64.49 ha). |
 | **Áreas naturales protegidas** | 25.66 | 723.11 | **Alerta crítica:** Detección de frentes activos y una expansión de **25.66 ha** directamente al interior del **Área Natural Protegida Tambopata**. |
